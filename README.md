@@ -6,7 +6,6 @@ This is a little script to help some of the manual monotony when auditing a web 
 Two files are created upon completion: 
 
 1. `final_results.txt`, which is a tab delimited file that can be imported to Excel to view and sort the results
-
 2. `urls.txt`, which contains each URL that was requested
 
 The `urls.txt` file can be imported using the results_browser. This tool will load the URLs and let you step through each result, where you can view the response in an iframe. 
