@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>file_hunter Browser</title>
+		<link rel="stylesheet" href="main.css">
+	</head>
+
+	<body>
+		<div id="page-wrapper">
+			<h1>File Hunter Results Browser</h1>
+			<div>
+				Select the "urls.txt" file:
+				<input type="file" id="fileInput">
+			</div>
+			<div id="errors"></div>
+			<span id="controls" class="hidden">
+				<a href="javascript:void(0)" id="previous">previous</a> || <a href="javascript:void(0)" id="next">next</a>
+			<span>
+			<br />
+			<h4 id="currentItem"></h4>
+			<div id="iframeDisplay"></div>
+			<h4 id="showResults" style="visibility:hidden;">Show All Results</h4>
+			<div id="resultsList" style="visibility:hidden;"><pre id="fileDisplayArea" style="display:none;"></pre></div>
+		</div>
+	</body>
+	<script type="text/javascript" src="script/reader.js"></script>
+</html>

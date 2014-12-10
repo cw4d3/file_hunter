@@ -1,0 +1,25 @@
+body {
+	font-family: Helvetica;
+	height: 800px;
+}
+pre {
+	white-space: pre-wrap;
+}
+
+iframe {
+	height: 500px;
+	width: 900px;
+}
+
+#showResults {
+	cursor: pointer;
+	width: 140px;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.visible {
+	visibility: visible;
+}
