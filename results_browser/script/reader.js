@@ -48,10 +48,6 @@ window.onload = function() {
 				// create an array of each line of the file
 				lines = this.result.split('\n');
 
-				for (index = 0; index < lines.length; ++index) {
-					console.log(lines[current_position]);
-				}
-
 				// unhide controls and results link
 				controls.style.visibility = 'visible';
 				showResults.style.visibility = 'visible';
@@ -99,8 +95,6 @@ window.onload = function() {
 					return;
 				}
 			});
-
-
 
 		} else {
 			errors = document.getElementById('errors').innerHTML = "<br />This is not the file you're looking for... ";
